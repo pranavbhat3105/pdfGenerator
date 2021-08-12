@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import { saveAs } from 'file-saver';
-import './script';
+
 
 import './App.css';
 
@@ -48,7 +48,7 @@ class App extends Component {
                <label for="fname">Enter Your Name and click download</label> 
               </div>
               <div class="col-75" id="name">
-               <input type="text" id="username" name="Name" placeholder="Enter Your name" pattern="[a-z]{1,15}" onChange={this.handleChange} />
+               <input type="text" id="username" name="name" placeholder="Enter Your name" pattern="[a-z]{1,15}" onChange={this.handleChange} />
               </div>
               <div class="col-85" id="ID">
               <input type="number" placeholder=" Enter Your User ID" name="receiptId" onChange={this.handleChange} />
