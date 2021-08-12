@@ -87,10 +87,8 @@ return `
                    <td colspan="2">
                    <table>
                    <tr>
-                      <td class="title"><img  src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcryptojobslist.com%2Fru%2Fcompanies%2Fspringfield-olympiads-pvt-ltd&psig=AOvVaw3zb5hozWoN5nasZELbmFWW&ust=1628851995918000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLiHqtioq_ICFQAAAAAdAAAAABAD"
-                         style="width:100%; max-width:156px;"></td>
                       <td>
-                         Datum: ${`${today.getDate()}. ${today.getMonth() + 1}. ${today.getFullYear()}.`}
+                         Date: ${`${today.getDate()}. ${today.getMonth() + 1}. ${today.getFullYear()}.`}
                       </td>
                    </tr>
                 </table>
